@@ -24,13 +24,15 @@ def get_statement():
                 eg: (A, B, C) ==> (1, 2, 3)
         WARNING:
             The script has not been setup for level 3 as of now...
+            it is also case sensetive... (only AND no and)
         """
     )
+    # mt3ml4 comment di kanet ashal tare2a a3ml beha 7ewar el statement da
     global statement
     statement = input("Enter your statment: ")
     return statement
 
-
+get_statement()
 
 x = eval(statement, {
    '__builtins__': None
