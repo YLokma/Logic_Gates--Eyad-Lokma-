@@ -31,18 +31,8 @@ def get_statement():
     return statement
 
 
-def filter_statement(statement):
-    if '1' in statement:
-        statement.replace('1', '{cie[0][0]}')
-        return statement
 
-
-print(filter_statement(get_statement()))
-
-
-"""
 x = eval(statement, {
    '__builtins__': None
 }, gate_values)
 print(x)
-"""
